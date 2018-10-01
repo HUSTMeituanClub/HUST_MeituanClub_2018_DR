@@ -163,19 +163,19 @@ int cresp(int * p, int * k)
     int chk = (p[*k] % 13)+1;
 	if(p[*k] < 14)
 	{
-		char hs[5] = "红桃";
+		char hs[] = "红桃";
 		check(&chk, hs);
 	}else if(p[*k] < 27)
 	{
-		char hs[5] = "方块";
+		char hs[] = "方块";
 		check(&chk, hs);
 	}else if(p[*k] < 40)
 	{
-		char hs[5] = "黑桃";
+		char hs[] = "黑桃";
 		check(&chk, hs);
 	}else
 	{
-		char hs[5] = "梅花";
+		char hs[] = "梅花";
 		check(&chk, hs);
 	}
 	
