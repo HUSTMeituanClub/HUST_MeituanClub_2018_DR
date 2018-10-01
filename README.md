@@ -7,17 +7,18 @@
 
 github仓库：https://github.com/HUSTMeituanClub/HUST_MeituanClub_2018_DR
 
-请先fork此仓库，然后以自己名称的缩写建立一个分支，如唐艺峰：`tyf`。在自己分支下以`组别-班级-姓名`，例如：`Android-CS1801-唐艺峰`的命名方式建立一个文件夹，之后所有的文件更新就在自己的文件夹下。
+1. fork 美团俱乐部的总仓库，之后会在你自己的仓库中看到你fork的那个仓库，假设你的用户名是jack，你会得到一个`jack/HUST_MeituanClub_2018_DR`这样一个仓库
+2. 然后在本地的git bash中，`git clone https://github.com/你的用户名/HUST_MeituanClub_2018_DR`
+3. 再在本地clone下来的这个文件夹，即`HUST_MeituanClub_2018_DR`中创建一个新的文件夹，命名为：`组别-班级-姓名`（假设为 `Android-CS1801-唐艺峰`)。
+  1. 注：组别分为：`Web` / `Android` / `iOS` / `IT` / `AI` / `Game`，请一定要注意拼写的规范。
+4. 打开「组别-班级-姓名」文件夹，在里面新建一个DR.md的文件，开始写你的dr
+5. 在git bash中输入三条命令 `git add .` `git commit -m "first try"` `git push origin master`
+6. 然后再回到网页上（即`https://github.com/你的用户名/HUST_MeituanClub_2018_DR`）去看，你会看见一个new pull request的按钮，点一下提交新的pull request。
+   
 
-注：组别分为：`Web` / `Android` / `iOS` / `IT` / `AI` / `Game`，请一定要注意拼写的规范。
+⚠️：此任务为无差别任务，所有人都要完成，每周最少完成4天DR的更新和1次WR的更新。
 
-在首次准备提交DR时，请按以下流程操作：
-1. 首次提交DR请以自己的名字(拼音)（假设为 `tyf`）创建新的分支并 __切换__ 到该分支。
-2. 以自己的名字创建新的文件夹（假设为 `Android-CS1801-唐艺峰`)。
-3. 在 `/Android-CS1801-唐艺峰/` 目录下建立两个文件，`DR.md`和`WR.md`，DR请按日更新，WR每周六/周日更新。
-4. 每日DR写完后将 master 分支 merge 到自己的分支，确保没有冲突后向 master 分支提交 PR 。
-5. ⚠️：此任务为无差别任务，所有人都要完成，每周最少完成4天DR的更新和1次WR的更新。
-
+⚠️：你不需要本地一有修改就`pull request`，你可以攒几天的更新然后再一起pull request（当然如果你不嫌麻烦的话可以每晚写完以后就pull request）
 
 ### 注意事项：
 
