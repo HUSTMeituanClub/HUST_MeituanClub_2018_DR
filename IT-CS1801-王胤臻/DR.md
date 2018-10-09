@@ -1,4 +1,4 @@
-# git@github.com:wyz894272237/first-try-remote.git
+# ssh：git@github.com:wyz894272237/first-try-remote.git 网址：https://github.com/wyz894272237/HUST_MeituanClub_2018_DR
 ## 姓名：
 ### 王胤臻
 ## 学习时间：
