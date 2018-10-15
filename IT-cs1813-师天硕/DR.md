@@ -1,4 +1,4 @@
-<a herf = "https://github.com/st1page/BlackJack2">https://github.com/st1page/BlackJack<a>
+<a herf = "https://github.com/st1page/BlackJack2">https://github.com/st1page/BlackJack2<a>
 <a herf = "https://github.com/st1page/BlackJack">https://github.com/st1page/BlackJack<a>
 # 2018.10.04
 因为处理了一些其他事情和一场意外的感冒，所以很抱歉，鸽了好几天orz。
