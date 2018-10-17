@@ -1,0 +1,43 @@
+Git 的使用
+
+
+1.Fork(Fork your own copy of Repository)
+
+
+2.git clone [url]
+
+
+以下步骤在repository 的本地目录下进行
+
+3.git add 
+跟踪未跟踪文件或文件夹
+将已跟踪文件放入暂存区
+P.S.文件状态
+
+
+4.git status (-s)
+查看当前文件状态
+？？ 新添加的未跟踪文件
+ M 修改未暂存
+M  修改且暂存
+MM 暂存后又修改
+
+
+5.git commit (-m)提交更新
+git commit -a 跳过使用暂存区(git add）
+
+
+6.git config
+$ git config user.name "Shityou"
+$ git config user.email "956914113@qq.com"
+
+7.git push origin master
+联机下的命令
+将本地的master分支推送到origin主机的master分支
+
+
+
+参考网址：
+https://www.yiibai.com/git/git-quick-start.html
+https://blog.csdn.net/wangdan_2013/article/details/80429972
+
